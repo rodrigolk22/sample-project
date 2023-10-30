@@ -16,8 +16,6 @@
 
 :small_blue_diamond: [Functions](#functions)
 
-:small_blue_diamond: [Deploy](#deploy)
-
 :small_blue_diamond: [Requirements](#requirements)
 
 :small_blue_diamond: [How to run](#how-to-run-arrow_forward)
@@ -31,24 +29,28 @@
 
 ## Functions
 
-:heavy_check_mark: Compile a Java file that prints "Hello world"  
-
-
-## Deploy
-
-> Deploy info is pending :warning:
+:heavy_check_mark: Compile Kotlin in a Java file that prints "Hello world"  
 
 ## Requirements
 
-:warning: [VS Code](https://code.visualstudio.com/download)
+:warning: [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 ## How to run :arrow_forward:
 
 In the terminal, clone the project:
 
-> :warning: pending link
+> https://github.com/rodrigolk22/sample-project
 
+Steps:
+
+:white_check_mark: For windows users need to install OpenJDK if you dont have any Java previously installed: [OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/release-notes/)
+
+:white_check_mark: Search for Kotlin [Kotlin extension](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin) in IDE Extensions (ctrl + shift + X) and install.
+
+:white_check_mark: Close and reopen IDE for correct Path loading
+
+:white_check_mark: Run Ctrl + Shift + B to execute the build
 
 ## How to run tests
 
@@ -73,7 +75,7 @@ After installation, you need to close and reopen the VS Code Editor to recognize
 
 ## To Dos
 
-:memo: add Gradle support to your Kotlin project
+:memo: add Gradle support for project
 
 :memo: Crate test tasks 
 
